@@ -29,3 +29,4 @@ hopefully be implemented as the general norm for parking systems in the future.
 6.**imutils**
 
 7.**Mysql.connector** -> for interacting with data-base.
+
