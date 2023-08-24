@@ -30,3 +30,4 @@ hopefully be implemented as the general norm for parking systems in the future.
 
 7.**Mysql.connector** -> for interacting with data-base.
 
+[output.pdf](https://github.com/dewanshyadav/Automated-parking-system/files/12433231/output.pdf)
