@@ -120,7 +120,11 @@ def cam():
 
     reader = easyocr.Reader(['en'])
     result = reader.readtext(cropped_image)
-    text = result[0][-2]
+    delimiter = ' '
+    text = ""
+    for i in result:
+        text += i[-2] + delimiter
+    text = text.strip()
     print("Number plate: ",text)
 
     font = cv2.FONT_HERSHEY_SIMPLEX
